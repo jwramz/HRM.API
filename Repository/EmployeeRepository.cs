@@ -7,7 +7,7 @@ namespace HRM.API.Repository
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly HRMContext _context;
-
+                
         public EmployeeRepository(HRMContext context)
         {
             _context = context;
